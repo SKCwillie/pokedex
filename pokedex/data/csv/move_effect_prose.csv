@@ -71,7 +71,7 @@ Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 t
 []{move:rapid-spin} cancels this effect."
 44,9,Has an increased chance for a critical hit.,Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.
 45,9,Hits twice in one turn.,Inflicts [regular damage]{mechanic:regular-damage}.  Hits twice in one turn.
-46,9,"If the user misses, it takes half the damage it would have inflicted in recoil.","Inflicts [regular damage]{mechanic:regular-damage}.  If this move misses, is blocked by []{move:protect} or []{move:detect}, or has no effect, the user takes half the damage it would have inflicted in recoil.  This recoil damage will not exceed half the user's max HP.
+46,9,"If the user misses, it takes half the damage it would have inflicted in recoil.","Inflicts [regular damage]{mechanic:regular-damage}.  If this move misses, is blocked by []{move:protect} or []{move:detect}, or has no effect, the user takes damage equal to half of its max HP rounded down.
 
 This move cannot be used while []{move:gravity} is in effect."
 47,9,Protects the user's stats from being changed by enemy moves.,"Pokémon on the user's side of the [field]{mechanic:field} are immune to stat-lowering effects for five turns.
