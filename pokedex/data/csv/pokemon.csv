@@ -897,6 +897,13 @@ id,identifier,species_id,height,weight,base_experience,order,is_default
 896,glastrier,896,22,8000,290,1088,1
 897,spectrier,897,20,445,290,1089,1
 898,calyrex,898,11,77,250,1090,1
+899,wyrdeer,899,18,951,,,1
+900,kleavor,900,18,890,,,1
+901,ursaluna,901,24,2900,,,1
+902,basculegion,902,30,1100,,,1
+903,sneasler,903,13,430,,,1
+904,overqwil,904,25,605,,,1
+905,enamorus,905,16,480,,,1
 10001,deoxys-attack,386,17,608,270,515,0
 10002,deoxys-defense,386,17,608,270,516,0
 10003,deoxys-speed,386,17,608,270,517,0
