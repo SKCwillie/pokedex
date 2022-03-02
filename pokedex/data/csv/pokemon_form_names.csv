@@ -468,6 +468,7 @@ pokemon_form_id,local_language_id,form_name,pokemon_name
 892,9,Single Strike Style,Single Strike Urshifu
 892,11,いちげきのかた,
 892,12,一击流,
+902,9,Male, Male Basculegion
 905,9,Incarnate Forme, Incarnate Enamorus
 10001,1,Ｂ,
 10001,3,B,
@@ -3223,4 +3224,5 @@ pokemon_form_id,local_language_id,form_name,pokemon_name
 10414,9,Origin Forme, Origin Dialga
 10415,9,Origin Forme, Origin Palkia
 10416,9,White-Striped Form, White-Striped Basculin
-10417,9,Therian Forme, Therian Enamorus
+10417,9,Female, Female Basculegion
+10418,9,Therian Forme, Therian Enamorus

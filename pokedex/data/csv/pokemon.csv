@@ -900,10 +900,10 @@ id,identifier,species_id,height,weight,base_experience,order,is_default
 899,wyrdeer,899,18,951,,,1
 900,kleavor,900,18,890,,,1
 901,ursaluna,901,24,2900,,,1
-902,basculegion,902,30,1100,,,1
+902,basculegion-male,902,30,1100,,,1
 903,sneasler,903,13,430,,,1
 904,overqwil,904,25,605,,,1
-905,enamorus,905,16,480,,,1
+905,enamorus-incarnate,905,16,480,,,1
 10001,deoxys-attack,386,17,608,270,515,0
 10002,deoxys-defense,386,17,608,270,516,0
 10003,deoxys-speed,386,17,608,270,517,0
@@ -1151,3 +1151,5 @@ id,identifier,species_id,height,weight,base_experience,order,is_default
 10245,dialga-origin,483,70,8487,,,0
 10246,palkia-origin,484,63,6590,,,0
 10247,basculin-white-striped,550,10,180,,,0
+10248,basculegion-female,902,30,1100,,,0
+10249,enamorus-therian,905,16,480,,,0
