@@ -14,6 +14,7 @@ if [[ "${1}" = "rebuild" ]] || [[ ! -f "${log_file}" ]]; then
 fi
 
 docker run -it --rm \
+    --verbose \
     -e TERM=xterm-256color \
     --name "pokedex-$(date +%Y%m%d-%H%M%S)" \
     --mount type=bind,source="${curr_dir}/pokedex/data",target=/app/pokedex/data \

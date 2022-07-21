@@ -7,7 +7,26 @@ on:
     branches: ["master-pokeapi"]
 
 jobs:
-  build:
+  Docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup
+        continue-on-error: true
+        run: |
+          docker run -it --rm \
+              --name "pokedex-$(date +%Y%m%d-%H%M%S)" \
+              --mount type=bind,source="${curr_dir}/pokedex/data",target=/app/pokedex/data \
+              veekun/pokedex setup -v
+      - name: Dump Pokédex
+        continue-on-error: true
+        run: |
+          bin/docker-pokedex dump -l all
+      - name: Print log
+        run: |
+          cat bin/docker-pokedex.log
+
+  Python:
     runs-on: ubuntu-latest
     strategy:
       matrix:
